@@ -2,8 +2,8 @@
 A system to create dynamic tests
 
 ## Download
-git clone https://github.com/euodeionomedeusuario/quiz.git
+git clone https://github.com/qsabyasachi/quiz-master.git
  
 ## License
-[MIT License](https://github.com/euodeionomedeusuario/classroom/blob/master/LICENSE) 2018 (c) Eduardo Silva Vieira
+[MIT License] 2019 (c) Sabyasachi Mandal
 
