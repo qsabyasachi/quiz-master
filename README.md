@@ -5,5 +5,5 @@ A system to create dynamic tests
 git clone https://github.com/qsabyasachi/quiz-master.git
  
 ## License
-[MIT License](https://github.com/qsabyasachi/quiz/license/LICENSE) 2018 (c) Eduardo Silva Vieira
+[MIT License](https://github.com/qsabyasachi/quiz-master/blob/master/quiz/license/LICENSE) 2019 (c) Sabyasachi Mandal
 

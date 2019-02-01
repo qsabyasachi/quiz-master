@@ -7,6 +7,7 @@
     <list default="true" id="23e10009-fedd-4c20-9f40-120875744731" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/license/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/license/LICENSE" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="119">
-                <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quiz/license/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -156,8 +157,8 @@
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/index.html" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/signup/index.html" />
-        <option value="$PROJECT_DIR$/quiz/license/LICENSE" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/quiz/license/LICENSE" />
       </list>
     </option>
   </component>
@@ -184,6 +185,12 @@
               <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
               <item name="quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="license" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549024452885</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first commit in this repo">
+      <created>1549024711587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549024711587</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -314,15 +328,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19316375" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19316375" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50158983" side_tool="true" weight="0.66925466" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="5" sideWeight="0.49841017" visible="true" weight="0.111801244" />
-      <window_info anchor="bottom" x="11" y="344" width="1258" height="314" id="Run" order="6" sideWeight="0.49841017" side_tool="true" weight="0.111801244" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49841017" visible="true" weight="0.13664596" />
+      <window_info anchor="bottom" x="11" y="344" width="1258" height="314" id="Run" order="6" sideWeight="0.50158983" side_tool="true" visible="true" weight="0.13664596" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -527,20 +541,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/license/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
-            <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/license/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
