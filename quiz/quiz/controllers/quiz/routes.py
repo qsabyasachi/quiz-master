@@ -1,12 +1,6 @@
 from flask import render_template, request, redirect, session
-from flask_debugtoolbar import DebugToolbarExtension
-from flask import Flask
 
-app = Flask(__name__);
-
-app.config["SECRET_KEY"] = "secret key"
-
-app = Flask(__name__);
+from quiz import app
 from quiz import db
 
 #Redirecting to the application index
@@ -30,8 +24,3 @@ def index():
 @app.route("/quiz/dashboard/", methods=["GET"])
 def dashboard():
     return render_template("quiz/dashboard/index.html")
-
-
-app.run(debug=True)
-# if __name__ == '__main__':
-#     app.run(host='127.255.255.254', port=5000)

@@ -1,9 +1,8 @@
 from flask import jsonify, request, render_template, redirect, session
-from flask_debugtoolbar import DebugToolbarExtension
 from bson.objectid import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from quiz.run import app
+from quiz import app
 from quiz import db
 
 #Returning all users in DB
@@ -21,6 +20,7 @@ def get_all_users():
 
 
 #Redirecting user to login page
+@app.route("/", methods=["GET"])
 @app.route("/quiz/login/", methods=["GET"])
 def redirect_login():
     return render_template("quiz/login/index.html")

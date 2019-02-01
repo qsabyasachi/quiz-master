@@ -19,26 +19,26 @@
         <div class="nav-wrapper">
           <a href="/quiz/" class="brand-logo center">Quiz</a>
           <ul id="slide-out" class="side-nav">
-            <li><a href="/quiz/logout/">Sair<i class="material-icons right">exit_to_app</i></a></li>
+            <li><a href="/quiz/logout/">Leave<i class="material-icons right">exit_to_app</i></a></li>
           </ul>
           <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
         </div>
       </nav>
 
       <div class="container">
-        <!-- informações sobre o questionário -->
+        <!-- information on the questionnaire -->
         <div class="card">
             <div class="card-content">
               <input type="hidden" id="answer-id" value="{{ answer._id }}">
               <input type="hidden" id="test-id" value="{{ answer.test._id }}">
-                <label>Nome</label>
+                <label>Name</label>
                 <h5>{{ answer.test.name }}</h5>
-                <label>Descrição</label>
+                <label>Description</label>
                 <h5>{{ answer.test.description }}</h5>
             </div>
         </div>
 
-        <!-- questionário -->
+        <!-- Quiz -->
         <div class="card">
             <div class="card-content">
                 <ol id="test">
@@ -46,7 +46,7 @@
                     {% for question in answer.answers %}
                       <li>{{ question.title }}</li>
                       <div class="row">
-                        <label>Resposta Correta</label>
+                        <label>Correct Answer</label>
                       </div>
                       <div class="row">
                         <div class="chip">
@@ -54,7 +54,7 @@
                         </div>
                       </div>
                       <div class="row">
-                        <label>Resposta</label>
+                        <label>Answer</label>
                       </div>
                       <div class="row">
                         <p class="answer">{{ question.answer }}</p>
@@ -65,9 +65,9 @@
             </div>
             <div class="card-action">
                 <div class="row">
-                  <label>Nota</label>
+                  <label>Note</label>
                   <input id="grade" type="number" min="0" max="10" value="{{ answer.grade}}">
-                  <a id="btnUpdateGrade" class="btn col s12 m12 l12 waves-effect waves-light blue white-text">Atualizar Nota</a>
+                  <a id="btnUpdateGrade" class="btn col s12 m12 l12 waves-effect waves-light blue white-text">Update Note</a>
                 </div>
             </div>
         </div>

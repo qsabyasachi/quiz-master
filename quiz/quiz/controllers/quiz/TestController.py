@@ -4,7 +4,7 @@ from random import randint
 from flask import redirect, render_template, jsonify, request, session
 from bson.objectid import ObjectId
 
-from quiz.run import app
+from quiz import app
 from quiz import db
 
 
@@ -27,7 +27,7 @@ def send_answer(test_id):
     num_questions = len(test["questions"])
     num_correct_questions = 0
 
-    #analisando se a questão está certa
+    #analyzing if the question is right
     for answer, value in zip(answers, values):
         for question in test["questions"]:
             if value == str(question["_id"]):
@@ -127,8 +127,8 @@ def save_test():
 #Returning all questions by topic
 @app.route("/quiz/test/<course>/<topic>/", methods=["POST"])
 def create_test(course, topic):
-    number = int(request.form.get("number")) #Número de questões
-    type = request.form.get("type"); #Tipo de questão
+    number = int(request.form.get("number")) #Number of questions
+    type = request.form.get("type"); #Question Type
     #Esta pode ser melhorada
     level = [{ "name" : "easy", "percentage" : float(request.form.get("easy")) },
             { "name" : "medium", "percentage" : float(request.form.get("medium")) },

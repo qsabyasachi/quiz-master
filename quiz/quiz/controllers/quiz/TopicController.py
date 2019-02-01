@@ -1,8 +1,7 @@
 from flask import jsonify, request
-from flask_debugtoolbar import DebugToolbarExtension
 from bson.objectid import ObjectId
 
-from quiz.run import app
+from quiz import app
 from quiz import db
 
 #creating a new topic

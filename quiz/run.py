@@ -1,3 +1,5 @@
 from quiz import app
-from flask_debugtoolbar import DebugToolbarExtension
-app.run(debug=True)
+from quiz.controllers.quiz import routes, CourseController, QuestionController, TopicController, UserController, TestController, AnswerController, ClassController
+# app.run(debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)

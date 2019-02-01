@@ -21,89 +21,89 @@
     </head>
     <body>
 
-      <!-- menu de navegação -->
+      <!-- navigation menu -->
       <nav class="nav-extended blue">
         <div class="nav-wrapper">
           <a href="/quiz" class="brand-logo center">Quiz</a>
           <ul id="slide-out" class="side-nav">
-            <li><a href="/quiz/logout/">Sair<i class="material-icons right">exit_to_app</i></a></li>
+            <li><a href="/quiz/logout/">Leave<i class="material-icons right">exit_to_app</i></a></li>
           </ul>
           <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
         </div>
       </nav>
 
-      <!-- barra lateral de pesquisa -->
+      <!-- search sidebar -->
       <div class="row">
         <div class="col s12 m6 l3">
           <div class="card">
             <div class="card-content">
                 <div class="row">
-                  <label>Disciplinas</label>
+                  <label>Subjects</label>
                   <select id="course" required>
-                    <option disabled selected>Selecione uma disciplina</option>
+                    <option disabled selected>Select a subject</option>
                   </select>
                 </div>
 
                 <div class = "row">
-                  <label>Tópicos</label>
+                  <label>Topics</label>
                   <select id="topic" required>
-                    <option disabled selected>Selecione um tópico</option>
+                    <option disabled selected>Select a Topic</option>
                   </select>
                 </div>
 
                 <div class = "row">
-                  <label>Número de Questões</label>
+                  <label>Number of Questions</label>
                   <input type="number" id="number" min=0 required>
                 </div>
 
                 <div class = "row">
-                  <label>Nível</label><br>
-                  <label>Fácil</label>
+                  <label>Level</label><br>
+                  <label>Easy</label>
                   <p class="range-field">
                     <input type="range" class="level" min="0" max="100" step="10" value="0"/>
                   </p>
-                  <label>Médio</label>
+                  <label>Medium</label>
                   <p class="range-field">
                     <input type="range" class="level" min="0" max="100" step="10" value="0"/>
                   </p>
-                  <label>Díficil</label>
+                  <label>Difficult</label>
                   <p class="range-field">
                     <input type="range" class="level" min="0" max="100" step="10" value="0"/>
                   </p>
                 </div>
 
                 <div class="row">
-                  <label>Tipo</label><br>
+                  <label>Type</label><br>
                   <div id="type">
                     <p>
                       <input name="group1" type="radio" id="test1" value="shortAnswer"/>
-                      <label for="test1">Resposta Curta</label>
+                      <label for="test1">Short answer</label>
                     </p>
                     <p>
                       <input name="group1" type="radio" id="test2" value="trueOrFalse"/>
-                      <label for="test2">Verdadeiro ou Falso</label>
+                      <label for="test2">True or false</label>
                     </p>
                     <p>
                       <input name="group1" type="radio" id="test3" value="multipleChoice"/>
-                      <label for="test3">Múltipla Escolha</label>
+                      <label for="test3">Multiple choice</label>
                     </p>
                   </div>
                 </div>
 
                 <div class="row">
-                  <a type="button" class="btn col s12 m12 l12 waves-effect waves-light blue" id="btnSearch">Pesquisar</a>
+                  <a type="button" class="btn col s12 m12 l12 waves-effect waves-light blue" id="btnSearch">Search</a>
                 </div>
             </div>
           </div>
         </div>
 
-        <!-- Lista de Questões-->
+        <!-- List of Questions-->
         <div class="row">
           <div class="col s12 m6 l9">
             <div class="card">
                 <div class="card-action">
-                  <a class="btn waves-effect waves-light blue white-text" id="btnGeneratePDF">Baixar<i class="material-icons right">get_app</i></a>
-                  <a class="btn waves-effect waves-light blue white-text" id="btnSave">Salvar<i class="material-icons right">save</i></a>
+                  <a class="btn waves-effect waves-light blue white-text" id="btnGeneratePDF">Download<i class="material-icons right">get_app</i></a>
+                  <a class="btn waves-effect waves-light blue white-text" id="btnSave">Save<i class="material-icons right">save</i></a>
 
                 </div>
 
@@ -111,13 +111,13 @@
                   <label>Nome</label>
                   <input type="text" id="name">
 
-                  <label>Descrição</label>
+                  <label>Description</label>
                   <input type="text" id="description">
 
-                  <label>Número de Tentativas</label>
+                  <label>Number of attempts</label>
                   <input type="number" id="num-attempts" min="1" value="1">
 
-                  <label>Tempo (em minutos)</label>
+                  <label>Time (in minutes)</label>
                   <input type="number" id="time" min="1" value="1">
 
                   <ol class="card-title" id="questions-list"></ol>
@@ -128,65 +128,66 @@
         </div>
 
         <div class="fixed-action-btn vertical click-to-toggle">
-         <a class="btn-floating btn-large blue">
+         <!--<a class="btn btn-large blue">Menu -->
+         <a class="btn btn-large waves-effect waves-light blue ">
            <i class="material-icons">menu</i>
          </a>
          <ul>
-           <li><a id="btnCreate" class="modal-trigger" href="#new-question-modal">Nova Questão<i class="material-icons right">add</i></a></li>
-           <li><a id="btn-call-modal-new-course" class="modal-trigger" href="#modal-new-course">Nova Disciplina<i class="material-icons right">add</i></a></li>
-           <li><a id="btn-call-modal-new-topic" class="modal-trigger" href="#modal-new-topic">Novo Tópico<i class="material-icons right">add</i></a></li>
+           <li><a id="btnCreate" class="modal-trigger" href="#new-question-modal">Issue<i class="material-icons right">add</i></a></li>
+           <li><a id="btn-call-modal-new-course" class="modal-trigger" href="#modal-new-course">Subject<i class="material-icons right">add</i></a></li>
+           <li><a id="btn-call-modal-new-topic" class="modal-trigger" href="#modal-new-topic">Topic<i class="material-icons right">add</i></a></li>
          </ul>
        </div>
 
       </div>
 
-      <!-- painel para criação de novas questões manualemente -->
+      <!-- panel to create new issues manually -->
       <div id="new-question-modal" class="modal">
         <div class="modal-content">
-          <span class="modal-title">Nova Questão</span>
+          <span class="modal-title">New Issue</span>
           <div class="row">
-            <label>Título</label>
+            <label>Title</label>
             <input id="nq-title" type="text">
           </div>
 
           <div class="row">
-            <label>Disciplina</label>
+            <label>Subject</label>
             <select id="nq-course"></select>
           </div>
 
           <div class="row">
-            <label>Tópico</label>
+            <label>Topic</label>
             <select id="nq-topic">
-                <option>Escolha uma disciplina</option>
+                <option>Choose a subject</option>
             </select>
           </div>
           <div class="row">
-            <label>Nível</label>
+            <label>Level</label>
             <select id="nq-level">
-              <option value="easy">Fácil</option>
-              <option value="medium">Médio</option>
-              <option value="difficult">Díficil</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="difficult">Difficult</option>
             </select>
           </div>
 
           <div class="row">
             <label>Tipo</label>
             <select id="nq-type">
-              <option value="shortAnswer">Resposta Curta</option>
-              <option value="trueOrFalse">Verdadeiro ou Falso</option>
-              <option value="multipleChoice">Múltipla Escolha</option>
+              <option value="shortAnswer">Short answer</option>
+              <option value="trueOrFalse">True or False</option>
+              <option value="multipleChoice">Multiple choice</option>
             </select>
           </div>
 
           <div class="row">
             <div class="row">
               <div class="col s12 m12 l12">
-                <a id="btn-add-option" class="btn waves-effect waves-light blue white-text">Nova Opção<i class="material-icons right">add</i></a>
+                <a id="btn-add-option" class="btn waves-effect waves-light blue white-text">New option<i class="material-icons right">add</i></a>
               </div>
             </div>
             <div class="row">
               <div class="chip">
-                A primeira opção é a opção correta!
+                The first option is the correct option! It will be jumbled during test.
                 <i class="material-icons left">warning</i>
               </div>
             </div>
@@ -197,48 +198,48 @@
         </div>
 
         <div class="modal-footer">
-          <a id="btn-create-question" class="modal-action modal-close waves-effect waves-green btn-flat">Criar</a>
-          <a class="modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+          <a id="btn-create-question" class="modal-action modal-close waves-effect waves-green btn-flat">Create</a>
+          <a class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
         </div>
       </div>
 
-      <!-- modal de criação de novos tópicos -->
+      <!-- modal of creating new topics -->
       <div id="modal-new-topic" class="modal">
         <div class="modal-content">
           <div class="row">
-            <h5>Criando novo tópico</h5>
+            <h5>Creating a new topic</h5>
           </div>
           <div class="row">
-            <label>Disciplina</label>
+            <label>Subject</label>
             <select id="modal-topic-course">
 
             </select>
           </div>
           <div class="row">
-            <label>Nome</label>
+            <label>Name</label>
             <input id="modal-topic-name" type="text">
           </div>
         </div>
         <div class="modal-footer">
-          <a id="btn-create-topic" class="modal-action modal-close btn-flat">Criar</a>
-          <a class="modal-action modal-close btn-flat">Cancelar</a>
+          <a id="btn-create-topic" class="modal-action modal-close btn-flat">Create</a>
+          <a class="modal-action modal-close btn-flat">Cancel</a>
         </div>
       </div>
 
-      <!-- modal de criação de novas disciplinas -->
+      <!-- modal of creating new disciplines -->
       <div id="modal-new-course" class="modal">
         <div class="modal-content">
           <div class="row">
-            <h5>Criando nova diciplina</h5>
+            <h5>Creating new Subject</h5>
           </div>
           <div class="row">
-            <label>Nome</label>
+            <label>Name</label>
             <input id="modal-course-name" type="text">
           </div>
         </div>
         <div class="modal-footer">
-          <a id="btn-create-course" class="modal-action modal-close btn-flat">Criar</a>
-          <a class="modal-action modal-close btn-flat">Cancelar</a>
+          <a id="btn-create-course" class="modal-action modal-close btn-flat">Create</a>
+          <a class="modal-action modal-close btn-flat">Cancel</a>
         </div>
       </div>
     </body>

@@ -1,8 +1,7 @@
 from flask import render_template, redirect, request, jsonify
-from flask_debugtoolbar import DebugToolbarExtension
 from bson.objectid import ObjectId
 
-from quiz.run import app
+from quiz import app
 from quiz import db
 
 #seeing the details of the answer

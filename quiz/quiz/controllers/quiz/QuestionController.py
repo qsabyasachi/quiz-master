@@ -2,8 +2,8 @@ import math
 
 from flask import render_template, jsonify, request
 from bson.objectid import ObjectId
-from flask_debugtoolbar import DebugToolbarExtension
-from quiz.run import app
+
+from quiz import app
 from quiz import db
 
 @app.route("/quiz/questions/<question_id>/", methods=["PUT"])

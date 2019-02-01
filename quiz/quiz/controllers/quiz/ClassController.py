@@ -1,8 +1,7 @@
 from flask import jsonify, session
-from flask_debugtoolbar import DebugToolbarExtension
 from bson.objectid import ObjectId
 
-from quiz.run import app
+from quiz import app
 from quiz import db
 
 #Returning all user classes
