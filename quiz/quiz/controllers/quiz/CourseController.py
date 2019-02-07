@@ -1,4 +1,5 @@
-from flask import jsonify, request
+from flask import jsonify, request, render_template
+
 
 from quiz import app
 from quiz import db
@@ -23,5 +24,5 @@ def get_all_courses():
         if item["_id"]:
             item["_id"] = str(item["_id"])
         courses.append(item)
-
-    return jsonify(courses)
+        print(courses)
+        return render_template("quiz/dashboard/index.html", co_urse=courses)

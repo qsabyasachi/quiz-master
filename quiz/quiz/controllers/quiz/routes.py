@@ -1,4 +1,6 @@
-from flask import render_template, request, redirect, session
+import routes, CourseController, QuestionController, TopicController, UserController, TestController, AnswerController, \
+    ClassController
+from flask import render_template, request, redirect, session, jsonify
 
 from quiz import app
 from quiz import db
@@ -23,4 +25,5 @@ def index():
 #Redirecting to dashboard
 @app.route("/quiz/dashboard/", methods=["GET"])
 def dashboard():
-    return render_template("quiz/dashboard/index.html")
+    co_urse = CourseController.get_all_courses()
+    return render_template("quiz/dashboard/index.html", co_urse=co_urse)
