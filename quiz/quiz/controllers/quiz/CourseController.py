@@ -24,5 +24,5 @@ def get_all_courses():
         if item["_id"]:
             item["_id"] = str(item["_id"])
         courses.append(item)
-        print(courses)
-        return render_template("quiz/dashboard/index.html", co_urse=courses)
+        # print(courses)
+        return jsonify(courses)

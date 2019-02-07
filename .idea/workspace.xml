@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e10009-fedd-4c20-9f40-120875744731" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/quiz/dropdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quiz-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quiz-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/quiz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/db/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/db/questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/db/topics.json" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/db/topics.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz/quiz/controllers/quiz/CourseController.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz/controllers/quiz/CourseController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/quiz/controllers/quiz/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz/controllers/quiz/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/run.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/PycharmProjects/Test1/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/PycharmProjects/Test1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +27,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/quiz/__init__.py">
+        <entry file="file://$PROJECT_DIR$/quiz/dropdown.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="143">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/drop_down.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/AnswerController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -43,44 +69,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="356">
+              <caret line="28" column="71" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#141#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/ClassController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/CourseController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="121" column="44" lean-forward="true" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/TestController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/UserController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="65" selection-start-column="65" selection-end-column="65" />
+            <state relative-caret-position="373">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,42 +108,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/TopicController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/ClassController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Login</find>
-      <find>/</find>
-      <find>class button</find>
-      <find>button</find>
       <find>The first option is the correct option!</find>
       <find>&lt;!--</find>
       <find>btn</find>
@@ -156,10 +146,15 @@
       <find>Time (in minutes)</find>
       <find>label</find>
       <find>render_template</find>
+      <find>pymongo</find>
+      <find>client</find>
+      <find>collection</find>
+      <find>{% for x in server_list %}</find>
     </findStrings>
     <replaceStrings>
       <replace>Log in</replace>
       <replace>/</replace>
+      <replace>&lt;h1&gt;hello&lt;/h1&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -182,23 +177,28 @@
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/__init__.py" />
         <option value="$PROJECT_DIR$/quiz/db/__init__.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/login/index.html" />
-        <option value="$PROJECT_DIR$/quiz/__init__.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/answers/see.html" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/index.html" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/signup/index.html" />
         <option value="$PROJECT_DIR$/quiz/license/LICENSE" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/quiz/quiz/__init__.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/AnswerController.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/QuestionController.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/TestController.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/ClassController.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/UserController.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/TopicController.py" />
-        <option value="$PROJECT_DIR$/quiz/run.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/quiz/quiz/templates/dropdown_tmpl.html" />
+        <option value="$PROJECT_DIR$/quiz/quiz/__init__.py" />
+        <option value="$PROJECT_DIR$/quiz/quiz/templates/index.html" />
+        <option value="$PROJECT_DIR$/quiz/quiz/static/quiz/drop_down.html" />
+        <option value="$PROJECT_DIR$/quiz/quiz/templates/drop_down.html" />
+        <option value="$PROJECT_DIR$/quiz/dropdown.py" />
+        <option value="$PROJECT_DIR$/quiz/__init__.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/routes.py" />
         <option value="$PROJECT_DIR$/quiz/quiz/controllers/quiz/CourseController.py" />
+        <option value="$PROJECT_DIR$/quiz/run.py" />
       </list>
     </option>
   </component>
@@ -209,10 +209,46 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -236,13 +272,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -252,91 +281,6 @@
               <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="quiz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dashboard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="license" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="routes.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,6 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Test1" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -362,7 +307,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quiz-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quiz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dropdown" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quiz-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quiz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz/dropdown.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quiz-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -387,6 +374,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549028071922</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="first commit in this repo">
+      <created>1549522651451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1549522651467</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -544,14 +540,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.6225166" visible="true" weight="0.23211446" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.6225166" visible="true" weight="0.23211446" />
       <window_info id="Structure" order="2" sideWeight="0.37748346" side_tool="true" weight="0.23211446" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.49920508" side_tool="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" x="11" y="344" width="1258" height="314" id="Run" order="5" sideWeight="0.5007949" visible="true" weight="0.40062112" />
+      <window_info anchor="bottom" x="11" y="344" width="1258" height="314" id="Run" order="5" sideWeight="0.5007949" visible="true" weight="0.28881988" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -561,25 +557,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.6225166" weight="0.23211446" />
-      <window_info id="Structure" order="2" sideWeight="0.37748346" side_tool="true" weight="0.23211446" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.49920508" side_tool="true" weight="0.17857143" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" x="11" y="344" width="1258" height="314" id="Run" order="5" sideWeight="0.5007949" visible="true" weight="0.062111802" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39906833" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32919255" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49920508" side_tool="true" weight="0.17857143" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -657,16 +634,6 @@
     <entry file="file://$PROJECT_DIR$/quiz/db/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/Test1/url_binding3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="153" column="46" lean-forward="true" selection-start-line="152" selection-end-line="153" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -681,13 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/quiz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -714,54 +674,17 @@
     <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/AnswerController.py">
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="89">
+          <caret line="121" column="46" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/__init__.py">
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/TestController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/ClassController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/TopicController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/QuestionController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="42" />
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -772,31 +695,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/TestController.py">
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/TopicController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="70" lean-forward="true" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        <state relative-caret-position="338">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/quiz/dashboard/index.html">
+    <entry file="file://C:/Python27/Lib/socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="121" column="44" lean-forward="true" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Test1/templates/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/dropdown_tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/quiz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Test1/url_binding3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="153" column="46" lean-forward="true" selection-start-line="153" selection-start-column="46" selection-end-line="153" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/dropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/AnswerController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/ClassController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/QuestionController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="356">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#141#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz/quiz/controllers/quiz/CourseController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="373">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/dropdown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/quiz/templates/drop_down.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
